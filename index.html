@@ -7,6 +7,21 @@
     <title>Document</title>
 </head>
 <body>
+    <input type="text" class="user-age">
+    <div class="cat-age"></div>
+
+    <input type="password" class="password">
+
+    <template>
+        <password
+          v-model="password"
+          :toggle="true"
+          @score="showScore"
+          @feedback="showFeedback"
+        />
+      </template>
+
+    <script src="./node_modules/cat-age-calculator/dist/index_bundle.js"></script>
     <script src="./app.js"></script>
 </body>
 </html>
