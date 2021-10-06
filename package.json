@@ -1,0 +1,22 @@
+{
+  "name": "namecat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artem-Marinskih/name-cat.git"
+  },
+  "author": " (Artem)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artem-Marinskih/name-cat/issues"
+  },
+  "homepage": "https://github.com/Artem-Marinskih/name-cat#readme",
+  "dependencies": {
+    "cat-age-calculator": "1.0.6"
+  }
+}
