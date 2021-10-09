@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Artem-Marinskih/name-cat#readme",
   "dependencies": {
-    "cat-age-calculator": "1.0.6"
+    "cat-age-calculator": "1.0.6",
+    "jquery": "3.6.0",
+    "zxcvbn": "4.4.2"
   }
 }
