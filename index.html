@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <input type="text" class="user-age">
-    <div class="cat-age"></div>
+  </head>
+  <body>
+    <h1 class="title">Домашка модули</h1>
+    <div class="block">
+      <h2 class="title">Сколько вам лет, если вы котик?</h2>
+      <input type="text" class="user-age" placeholder="введите ваш возраст" />
+      <p class="cat-age"></p>
+    </div>
 
-    <input type="password" class="password">
+    <div class="block">
+      <h2 class="title">Сложность пароля</h2>
+      <input type="password" class="password" />
+      <p class="password-text"></p>
+    </div>
 
-    <template>
-        <password
-          v-model="password"
-          :toggle="true"
-          @score="showScore"
-          @feedback="showFeedback"
-        />
-      </template>
+    <div class="block jqwery">
+      <h2 class="title">J means jQuery</h2>
+    </div>
 
+    <script src="./node_modules/zxcvbn/dist/zxcvbn.js"></script>
     <script src="./node_modules/cat-age-calculator/dist/index_bundle.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
